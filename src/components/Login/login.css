@@ -1,0 +1,120 @@
+.login-page{
+    width: 100vw;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(21, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+}
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container>.logo>.logoimg{
+    width: 100px;
+    height: 100px;
+}
+.container>.logo>h1{
+    font-size: 50px;
+    margin-left: 3px;
+    color: rgb(255, 123, 0);
+}
+.container>h1{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-bottom: 3px solid rgb(251, 251, 251);
+    width: 35vmax;
+    margin-top: 50px;
+    text-align: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.container>.input>input{
+    width: 25vmax;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+}
+.loginbtn{
+    width: 25vmax;
+    padding: 10px 20px;
+    background-color: rgb(255, 123, 0);
+    border: none;
+    margin-top: 30px;
+    box-sizing: border-box;
+    outline: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+}
+.loginbtn:hover{
+    cursor: pointer;
+}
+.container>p{
+    margin-top: 40px;
+    color: rgb(255, 123, 0);
+}
+
+@media screen and (max-width: 700px){
+    .container{
+        width: 100%;
+    }
+    .container>h1{
+        width: 55vw;
+        margin-top: 20px;
+    }
+    .container>.input>input{
+        width: 50vw;
+    }
+    .loginbtn{
+        width: 50vw;
+    }
+    
+}
+@media screen and (max-width: 420px){
+    .container{
+        width: 100%;
+    }
+    .container>h1{
+        font-size: 25px;
+        width: 55vw;
+        margin-top: 20px;
+    }
+    .container>.input>input{
+
+        width: 50vw;
+    }
+    .loginbtn{
+        width: 50vw;
+    }
+    .container>.logo>.logoimg{
+        width: 70px;
+        height: 70px;
+    }
+    .container>.logo>h1{
+        font-size: 35px;
+        margin-left: 3px;
+        color: rgb(255, 123, 0);
+    }
+    
+}

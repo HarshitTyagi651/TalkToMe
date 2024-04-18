@@ -1,0 +1,26 @@
+.message-box{
+    padding: 1vmax;
+    margin: 1.8vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+}
+
+.right{
+    float: right;
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+
+.left{
+    float: left;
+    background-color: rgb(255, 204, 204);
+    color: black;
+}
+
+@media screen and (max-width: 700px){
+    .message-box{
+        font-size: 20px;
+    }
+}
+
